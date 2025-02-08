@@ -1,0 +1,17 @@
+h1 {
+font-size: 50%;
+color: blue;
+}
+
+#id_1 {
+color: blue;
+}
+
+.id_2 {
+color: green;
+}
+
+
+th, td {
+border: 2px solid black;
+}

@@ -1,0 +1,23 @@
+// script.js
+
+// Получаем элементы
+const loginButton = document.getElementById('loginButton');
+const modal = document.getElementById('modal');
+const closeModal = document.querySelector('.close');
+
+// Открыть модальное окно
+loginButton.addEventListener('click', () => {
+    modal.style.display = 'flex';
+});
+
+// Закрыть модальное окно
+closeModal.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+
+// Закрыть модальное окно при клике вне контента
+window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+});

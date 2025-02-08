@@ -1,0 +1,7 @@
+<!DOCTYPE>
+<html>
+
+<body>
+	<a href="https://google.com">Ask google</a>
+</body>
+</html>

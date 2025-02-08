@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>1</title>
+</head>
+<body>
+<h1 id="h1">
+Заголовок
+</h1>
+<div id="1"></div>
+<img id="picture_1" src="flowers.jpg"></img>
+<canvas id="canvas1"></canvas>
+<script src="Pr_1_s.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById("h1").addEventListener('click', function(){
+ this.style.color = 'blue';
+  this.style.fontSize = '36px';
+  this.style.fontStyle = 'italic';
+});
+
+document.getElementById("1").innerText = "Hi";
+document.getElementById("1").addEventListener('click', function(){
+ this.style.color = 'blue';
+});
+let canvas1 = document.getElementById("canvas1");
+canvas.height = 300;
+canvas.width = 300;
+let ctx = canvas1.getContex("2d");
+let img = document.getElementById("picture_1");
+ctx.drawImage(img, 100, 100);
+
+

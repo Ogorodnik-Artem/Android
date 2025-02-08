@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>1</title>
+</head>
+<body>
+<div id="1"></div>
+<canvas id="canvas1"></canvas>
+<script src="1.js"></script>
+</body>
+</html>
